@@ -16,6 +16,19 @@ ul {
   list-style: none;
 }
 
-h1 {
+.wrap {
+  width: 100vh;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrap .block {
+  width: 200px;
+  height: 200px;
   background: #000;
+  transition: 0.8s;
+}
+.wrap .block:hover {
+  background: #173;
 }/*# sourceMappingURL=style.css.map */
