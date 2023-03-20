@@ -22,27 +22,8 @@ ul {
     list-style: none;
 }
 
-   
-.wrap{
-
-width: 100vh;
-height: 100vh;
-display: flex;
-justify-content: center;
-align-items: center;
 
 
-    .block{
-    width: 200px;
-    height: 200px;
-    background: #000;
-    transition: .8s ;
-    // transition-delay: 0.1s;
+
+
     
-    
-    }
-    .block:hover{
-        background: #173;
-        
-    }
-}
