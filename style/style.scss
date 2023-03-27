@@ -76,9 +76,10 @@ ul {
     display: flex;
     justify-content: space-between;
     padding-top: 25px;
+    text-decoration: none;
 
     .header-logo {
-
+      line-height: 20px;
         .logo {
             display: flex;
             letter-spacing: 0.3px;
@@ -93,7 +94,7 @@ ul {
         .logo-p {
             font-size: 39px;
             color: #fff;
-            
+            text-decoration: none;
         }
 
         .logo-coment {
@@ -107,8 +108,9 @@ ul {
 
     .header-contacts {
         padding-left: 400px;
-        line-height: 20px;
+        line-height: 10px;
         text-align: right;
+
 
         .switch {
             display: flex;
@@ -175,7 +177,9 @@ ul {
         text-align: right;
         letter-spacing: 1px;
         font-family: 'TT Norms Pro', sans-serif;
+        
         .nav-item-a {
+            text-decoration: none;
             padding-left: 5px;
             color: #fff;
         }
@@ -320,8 +324,9 @@ ul {
 
     .header-text-services {
      
-      
+        text-decoration: none;
         .header-text-services-1 {
+            text-decoration: none;
             font-size: 42px;
             background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
             -webkit-background-clip: text;
@@ -334,6 +339,7 @@ ul {
    display: flex;
    justify-content: space-around;
    flex-wrap: wrap;
+   
   
 
         .block-in-1{
@@ -495,3 +501,17 @@ ul {
     }
 
 }
+
+.carousel-indicators, .botton{
+    bottom: -50px;
+}
+
+
+
+
+.kkk{
+ 
+    
+}
+
+
