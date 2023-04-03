@@ -1,3 +1,159 @@
-@media screen {
-    
+@media screen and (max-width: 321px) {
+
+    .header-logo {
+        display: inline-block;
+
+    }
+
+    .switch-landuades {
+        display: inline-block;
+    }
+
+    .header-block .header-contacts{
+        padding-left: 90px;
+    }
+
+    .facebook{
+        display: none;
+    }
+    .address-info{
+        display: none;
+    }
+    .dot{
+        display: none;
+    }
+    .btm{
+        display: none;
+    }
+
+    .burger {
+        /* display: block; */
+        z-index: 50;
+    }
+
+
+    .menu-header {
+        right: -50%;
+        background: rgb(170, 124, 124);
+        width: 50vw;
+        height: 100vh;
+        padding: 50px;
+        top: 0;
+    }
+
+    .menu-header.active {
+        right: 0;
+    }
+
+
+    .navitem {
+        padding-right: 100px;
+        padding-top: 10px;
+    }
+
+.line{
+    display: none;
+}
+
+.scroll-block{
+    display: inline-block;
+    padding: 0px;
+}
+
+.publications-block .item-block .item-block-1{
+margin-bottom: 130px;
+}
+
+.scroll-block .scroll-information .text-scroll-color {
+    text-align: left;
+
+}
+
+.scroll-block .scroll-information .text-scroll-color{
+    padding-left: 18px;
+}
+
+.scroll-block .scroll-information {
+    padding-left: 0px;
+}
+
+.scroll-block .text-information-sckroll {
+    padding-left: 18px;
+    padding-top: 0px;
+    padding-bottom: 40px;
+}
+
+.text-scroll{
+    display: none;
+}
+
+.text-information-sckroll-1{
+    padding-right: 100px;
+}
+
+.bloks-parent{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.clients-item{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dot-one{
+  display: none;
+}
+.dot-two{
+    display: none;
+  }
+
+ footer{
+    display: inline-block;
+}
+
+.item-footer-1{
+    display: flex;
+    flex-direction:column;
+}
+
+.item-footer-2{
+    display: none;
+}
+.item-footer-3{
+    display: flex;
+    flex-direction:column;
+    justify-items: center;
+}
+
+.text-footer .item-footer-1 .addres-footer{
+padding-left: 47px;
+margin-bottom: 5px;
+}
+.text-footer .item-footer-1 .btm-footer-1{
+    padding-top: 0px;
+    padding-left: 85.5px;  
+}
+
+.text-footer .item-footer-2 .text-footer-information{
+    padding-left: 1px;
+}
+.footer-facebook-a{
+    padding-left: 135px;
+    padding-top: 20px;
+}
+.item-footer-3 .tel-footer {
+    padding-left: 52px;
+}
+.item-footer-3 .wrap-mail {
+padding-left: 50px;
+padding-top: 0px;
+}
+
+    .block-in-4{
+        padding-left: 20px;
+    }
+    .block-in-1{
+        padding-left: 20px;
+    }
 }
