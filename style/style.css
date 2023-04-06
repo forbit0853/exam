@@ -425,13 +425,47 @@ ul {
   overflow: hidden;
 }
 
+.block-information-register {
+  padding-top: 100px;
+}
+
+.footer-register {
+  color: #24A3FF;
+  padding-top: 20px;
+}
+
+.tel-register {
+  font-size: 21px;
+  padding-top: 40px;
+  padding-bottom: 15px;
+}
+
+.mail-register-color {
+  font-size: 21px;
+  color: #24A3FF;
+}
+
+.mail-register {
+  padding-bottom: 40px;
+}
+
+.header-h1-redister {
+  font-size: 21px;
+  padding-bottom: 5px;
+}
+
+.line-rigister {
+  border: 4px solid #E6E6F0;
+  width: 500px;
+}
+
 .first-service-page {
   background-image: url(../images/Cover-2.png);
+  position: relative;
 }
 
 .two-service-page {
   background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
-  position: relative;
 }
 
 .img-it {
@@ -453,6 +487,10 @@ ul {
   font-size: 42px;
   padding-left: 400px;
   font-family: "TT Norms Pro", sans-serif;
+}
+
+.sth {
+  display: block;
 }
 
 .wrap-text-it {
@@ -526,7 +564,7 @@ ul {
 .two-service-page::before {
   content: "";
   position: absolute;
-  bottom: -10px;
+  bottom: -334px;
   width: 100%;
   height: 10px;
   background: url("../images/Bg.png") no-repeat center center;
@@ -539,7 +577,7 @@ ul {
 .two-service-page::after {
   content: "";
   position: absolute;
-  bottom: -20px;
+  bottom: -344px;
   width: 100%;
   height: 10px;
   background: url("../images/Bg-2.png") no-repeat center center;
@@ -1409,4 +1447,86 @@ ul {
 
 .logo-btm {
   display: flex;
+}
+
+.register-block {
+  display: flex;
+  justify-content: baseline;
+  padding-top: 82px;
+  padding-left: 60px;
+  padding-bottom: 80px;
+}
+
+.forma-regisret {
+  display: inline-block;
+  background: #F5F5FA;
+  padding: 20px;
+  border-radius: 20px;
+  margin-left: 173px;
+}
+.forma-regisret .text-block-form {
+  font-size: 14px;
+  color: #B3B3BA;
+  padding-top: 15px;
+  padding-left: 2.5px;
+}
+.forma-regisret .header-text-form {
+  font-size: 34px;
+  font-family: "TT Norms Pro", sans-serif;
+  background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.forma-regisret .form-name {
+  font-size: 14px;
+  border: 1px solid #ffffff;
+  border-radius: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+  width: 470px;
+}
+.forma-regisret .wrap-form-massage {
+  padding-top: 20px;
+}
+.forma-regisret .form-massage {
+  font-size: 14px;
+  border: 1px solid #ffffff;
+  border-radius: 20px;
+  padding-bottom: 110px;
+  padding-top: 10px;
+  padding-left: 10px;
+  width: 470px;
+}
+.forma-regisret .tel-form {
+  font-size: 14px;
+  border: 1px solid #ffffff;
+  border-radius: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+  width: 470px;
+}
+.forma-regisret .wrap-mail-form {
+  padding-top: 20px;
+}
+.forma-regisret .wrap-mail-form .mail-form {
+  font-size: 14px;
+  border: 1px solid #ffffff;
+  border-radius: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+  width: 470px;
+}
+.forma-regisret .btm-form {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 111.5px;
+}
+.forma-regisret .btm-form .btm-form-a {
+  padding: 16px 25px 17px 25px;
+  border-radius: 20px;
+  background: #24A3FF;
 }/*# sourceMappingURL=style.css.map */
